@@ -48,7 +48,9 @@ class Student
    end
   end 
   
-  def self.
+  def self.students_below_12th_grade
+    sql = <<-SQL
+    SQL
   end 
   
   def save
