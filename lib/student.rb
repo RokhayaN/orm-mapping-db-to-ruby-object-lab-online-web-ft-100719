@@ -38,7 +38,11 @@ class Student
     # return a new instance of the Student class
     
   def self.all_students_in_grade_9
-    sql 
+    sql = <<-SQL 
+            SELECT * 
+            FROM students 
+            WHERE grade = 9
+    
     
     
   end 
